@@ -7,9 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "PersonTableViewCell.h"
 
-@interface ViewController : UIViewController
-
+@interface ViewController : UIViewController<UITableViewDataSource,UITableViewDelegate>
+{
+    IBOutlet UITableView *sotugyo_TableView;
+}
 
 @end
 
