@@ -12,4 +12,7 @@
 @property (weak, nonatomic) IBOutlet UILabel *name_label;
 @property (weak, nonatomic) IBOutlet UIImageView *profileImageView;
 
+
+@property (weak, nonatomic) IBOutlet UILabel *syokaiLabel;
+
 @end

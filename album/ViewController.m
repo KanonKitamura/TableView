@@ -21,26 +21,69 @@
     sotugyo_TableView.dataSource=self;
    
     // Do any additional setup after loading the view, typically from a nib.
+    
+    nameArray=[[NSMutableArray alloc]initWithObjects:@"アナザー",
+               @"かのん",
+               @"たけ",
+               @"まっすー",nil];
+    
+    imageArray=[[NSMutableArray alloc]
+                initWithObjects:[UIImage imageNamed:@"アナザー.jpg"],
+                [UIImage imageNamed:@"かのん.jpg"],[UIImage imageNamed:@"TAKE.jpg"],[UIImage imageNamed:@"まっすー.jpg"],
+                nil];
+    
+    
+    messageArray=[[NSMutableArray alloc]initWithObjects:@"LifeisTech Mentor",
+                  @"一般中学生",@"LifeisTech Mentor",@"LifeisTechSchool塾長",nil];
+    
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 
-   }
+   }//セルの数を数える
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:
 (NSInteger)section{
-    return 5;
+    return [nameArray count];
 }
 
-
+//セルの初期化
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:
 (NSIndexPath *)indexPath{
     PersonTableViewCell  *cell=[tableView dequeueReusableCellWithIdentifier:@"Cell" forIndexPath:indexPath];
-    cell.name_label.text=@"たけ";
+  
+    //セルに情報入れる
+    cell.name_label.text=[nameArray objectAtIndex:indexPath.row];
+    
+    cell.profileImageView.image=
+    [imageArray objectAtIndex:indexPath.row];
+    
+    cell.syokaiLabel.text=[messageArray objectAtIndex:indexPath.row];
+    
+ 
     
     return cell;}
 
+
+//セルを選択したときの動作
+-(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+
+    NSString *title=[nameArray objectAtIndex:indexPath.row];
+ NSString *message=[messageArray objectAtIndex:indexPath.row];
+   
+    
+    UIAlertView *alertView=[[UIAlertView alloc]initWithTitle:title message:message delegate:self cancelButtonTitle:@"わかった" otherButtonTitles:nil, nil];
+    
+   
+      
+    
+    [alertView show];
+    
+    //配列を使おうね(◞‸◟)
+    
+    
+}
 
 @end
  

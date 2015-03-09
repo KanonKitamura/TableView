@@ -15,6 +15,12 @@
 		E9520CD91A9F456F005D3F1F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E9520CD71A9F456F005D3F1F /* LaunchScreen.xib */; };
 		E9520CE51A9F456F005D3F1F /* albumTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E9520CE41A9F456F005D3F1F /* albumTests.m */; };
 		E9520CF01A9F4882005D3F1F /* PersonTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E9520CEF1A9F4882005D3F1F /* PersonTableViewCell.m */; };
+		E9520CF21AADC1F4005D3F1F /* BaPfhPvCAAEJ8Ns.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E9520CF11AADC1F4005D3F1F /* BaPfhPvCAAEJ8Ns.jpg */; };
+		E9520CF41AADC279005D3F1F /* 1653573_482286291875994_810067460_n.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E9520CF31AADC279005D3F1F /* 1653573_482286291875994_810067460_n.jpg */; };
+		E9520CF61AADC2BE005D3F1F /* TAKE.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E9520CF51AADC2BE005D3F1F /* TAKE.jpg */; };
+		E9520CF81AADC899005D3F1F /* アナザー.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E9520CF71AADC899005D3F1F /* アナザー.jpg */; };
+		E9520CFA1AADC8A4005D3F1F /* かのん.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E9520CF91AADC8A4005D3F1F /* かのん.jpg */; };
+		E9520CFC1AADCE52005D3F1F /* まっすー.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E9520CFB1AADCE52005D3F1F /* まっすー.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +49,12 @@
 		E9520CE41A9F456F005D3F1F /* albumTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = albumTests.m; sourceTree = "<group>"; };
 		E9520CEE1A9F4882005D3F1F /* PersonTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonTableViewCell.h; sourceTree = "<group>"; };
 		E9520CEF1A9F4882005D3F1F /* PersonTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonTableViewCell.m; sourceTree = "<group>"; };
+		E9520CF11AADC1F4005D3F1F /* BaPfhPvCAAEJ8Ns.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = BaPfhPvCAAEJ8Ns.jpg; sourceTree = "<group>"; };
+		E9520CF31AADC279005D3F1F /* 1653573_482286291875994_810067460_n.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1653573_482286291875994_810067460_n.jpg; sourceTree = "<group>"; };
+		E9520CF51AADC2BE005D3F1F /* TAKE.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = TAKE.jpg; sourceTree = "<group>"; };
+		E9520CF71AADC899005D3F1F /* アナザー.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "アナザー.jpg"; sourceTree = "<group>"; };
+		E9520CF91AADC8A4005D3F1F /* かのん.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "かのん.jpg"; sourceTree = "<group>"; };
+		E9520CFB1AADCE52005D3F1F /* まっすー.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "まっすー.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +96,12 @@
 		E9520CC71A9F456F005D3F1F /* album */ = {
 			isa = PBXGroup;
 			children = (
+				E9520CFB1AADCE52005D3F1F /* まっすー.jpg */,
+				E9520CF91AADC8A4005D3F1F /* かのん.jpg */,
+				E9520CF71AADC899005D3F1F /* アナザー.jpg */,
+				E9520CF51AADC2BE005D3F1F /* TAKE.jpg */,
+				E9520CF31AADC279005D3F1F /* 1653573_482286291875994_810067460_n.jpg */,
+				E9520CF11AADC1F4005D3F1F /* BaPfhPvCAAEJ8Ns.jpg */,
 				E9520CCC1A9F456F005D3F1F /* AppDelegate.h */,
 				E9520CCD1A9F456F005D3F1F /* AppDelegate.m */,
 				E9520CCF1A9F456F005D3F1F /* ViewController.h */,
@@ -206,6 +224,12 @@
 			files = (
 				E9520CD41A9F456F005D3F1F /* Main.storyboard in Resources */,
 				E9520CD91A9F456F005D3F1F /* LaunchScreen.xib in Resources */,
+				E9520CFC1AADCE52005D3F1F /* まっすー.jpg in Resources */,
+				E9520CFA1AADC8A4005D3F1F /* かのん.jpg in Resources */,
+				E9520CF61AADC2BE005D3F1F /* TAKE.jpg in Resources */,
+				E9520CF21AADC1F4005D3F1F /* BaPfhPvCAAEJ8Ns.jpg in Resources */,
+				E9520CF41AADC279005D3F1F /* 1653573_482286291875994_810067460_n.jpg in Resources */,
+				E9520CF81AADC899005D3F1F /* アナザー.jpg in Resources */,
 				E9520CD61A9F456F005D3F1F /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -418,6 +442,7 @@
 				E9520CEA1A9F456F005D3F1F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E9520CEB1A9F456F005D3F1F /* Build configuration list for PBXNativeTarget "albumTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +451,7 @@
 				E9520CED1A9F456F005D3F1F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

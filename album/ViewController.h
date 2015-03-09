@@ -12,7 +12,12 @@
 @interface ViewController : UIViewController<UITableViewDataSource,UITableViewDelegate>
 {
     IBOutlet UITableView *sotugyo_TableView;
-}
 
+
+NSMutableArray *nameArray;
+NSMutableArray *imageArray;
+NSMutableArray *messageArray;
+
+}
 @end
 
