@@ -17,6 +17,7 @@
 NSMutableArray *nameArray;
 NSMutableArray *imageArray;
 NSMutableArray *messageArray;
+NSMutableArray *syokaiArray;
 
 }
 @end

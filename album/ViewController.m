@@ -36,6 +36,8 @@
     messageArray=[[NSMutableArray alloc]initWithObjects:@"LifeisTech Mentor",
                   @"一般中学生",@"LifeisTech Mentor",@"LifeisTechSchool塾長",nil];
     
+    syokaiArray=[[NSMutableArray alloc]initWithObjects:@"木曜EXPERT授業で私たちの面倒を　いつも見てくれる面白いメンターさん",@"木曜ステージで一番花粉症が酷い人",@"アナザーさんと一緒に優しく教えて　くれる笑顔が素敵なメンターさん",@"去年からずっとお世話になってる　とっても話しやすいメンターさん", nil];
+    
 }
 
 - (void)didReceiveMemoryWarning {
@@ -59,7 +61,7 @@
     cell.profileImageView.image=
     [imageArray objectAtIndex:indexPath.row];
     
-    cell.syokaiLabel.text=[messageArray objectAtIndex:indexPath.row];
+    cell.syokaiLabel.text=[syokaiArray objectAtIndex:indexPath.row];
     
  
     
