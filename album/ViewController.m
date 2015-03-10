@@ -59,6 +59,7 @@
     //セルに情報入れる
     cell.name_label.text=[nameArray objectAtIndex:indexPath.row];
     
+    
     cell.profileImageView.image=
     [imageArray objectAtIndex:indexPath.row];
     
